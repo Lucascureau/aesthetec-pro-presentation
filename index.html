@@ -1349,6 +1349,9 @@ nav {
     <div class="nav-dot" data-slide="9"></div>
     <div class="nav-dot" data-slide="10"></div>
     <div class="nav-dot" data-slide="11"></div>
+    <div class="nav-dot" data-slide="12"></div>
+    <div class="nav-dot" data-slide="13"></div>
+    <div class="nav-dot" data-slide="14"></div>
   </div>
   <div class="nav-progress" style="width: 0%"></div>
 </nav>
@@ -1368,13 +1371,13 @@ nav {
     <span class="section-label reveal">Le constat</span>
     <h2 class="section-title reveal reveal-delay-1">Aujourd'hui, on est <br>aveugles.</h2>
     <p class="section-desc reveal reveal-delay-2">
-      Nos machines sont vendues. Apres, plus rien. Aucune visibilite sur l'usage reel, les resultats, la satisfaction. Nos praticiennes galrent avec du papier ou des tableurs.
+      Nos machines sont vendues. Apres, plus rien. Aucune visibilite sur l'usage reel, les resultats, la satisfaction. Aucune remontee de data terrain.
     </p>
     <div class="problem-grid reveal reveal-delay-3">
       <div class="problem-card">
         <span class="problem-icon">&#128196;</span>
-        <h4>Suivi papier</h4>
-        <p>Les praticiennes notent les parametres sur des fiches papier. Rien n'est centralise, rien n'est exploitable.</p>
+        <h4>Aucun outil dedie</h4>
+        <p>Les praticiennes n'ont aucun outil pour suivre les seances, les parametres, les resultats. Tout reste dans leur tete.</p>
       </div>
       <div class="problem-card">
         <span class="problem-icon">&#128683;</span>
@@ -1973,8 +1976,192 @@ nav {
   </div>
 </section>
 
-<!-- ═══════════════ SLIDE 10 — PARCOURS COMPLET ═══════════════ -->
-<section class="slide slide-flow" id="slide-9">
+<!-- ═══════════════ SLIDE 10 — DASHBOARD PRATICIENNE ═══════════════ -->
+<section class="slide slide-screen" id="slide-9">
+  <div class="section-number reveal">08</div>
+  <div class="split">
+    <div class="split-text screen-explain">
+      <span class="section-label reveal">Ecran 8</span>
+      <h2 class="section-title reveal reveal-delay-1">Dashboard<br>Praticienne</h2>
+      <p class="section-desc reveal reveal-delay-2">
+        La praticienne visualise ses performances en un coup d'oeil. Retention, satisfaction, activite &mdash; tout est la pour piloter son institut.
+      </p>
+      <ul class="explain-list reveal reveal-delay-3">
+        <li>
+          <span class="explain-num">1</span>
+          <span class="explain-text"><strong>KPIs cles</strong> &mdash; Nombre de seances ce mois, taux de retention, satisfaction moyenne</span>
+        </li>
+        <li>
+          <span class="explain-num">2</span>
+          <span class="explain-text"><strong>Repartition CRYO / LASER</strong> &mdash; Quelle techno est la plus utilisee, quelles zones sont populaires</span>
+        </li>
+        <li>
+          <span class="explain-num">3</span>
+          <span class="explain-text"><strong>Alertes rebooking</strong> &mdash; Les clientes qui n'ont pas repris RDV depuis trop longtemps</span>
+        </li>
+        <li>
+          <span class="explain-num">4</span>
+          <span class="explain-text"><strong>Motivation</strong> &mdash; La praticienne voit l'impact de son travail avec des chiffres concrets</span>
+        </li>
+      </ul>
+    </div>
+    <div class="split-visual reveal reveal-delay-2">
+      <div class="phone">
+        <div class="phone-screen">
+          <div class="phone-status-bar">
+            <span>9:41</span>
+            <span>&#9679;&#9679;&#9679;</span>
+          </div>
+          <div class="phone-appbar">
+            <span style="font-size: 18px; color: var(--gray-400);">&#8592;</span>
+            <span class="phone-appbar-title">Mon Dashboard</span>
+            <div></div>
+          </div>
+          <div class="phone-body">
+            <div style="font-size: 11px; color: var(--gray-600); margin-bottom: 6px;">Juin 2026</div>
+            <div class="mock-stat-row">
+              <div class="mock-stat">
+                <div class="mock-stat-value">63</div>
+                <div class="mock-stat-label">Seances</div>
+              </div>
+              <div class="mock-stat">
+                <div class="mock-stat-value" style="color: var(--success);">87%</div>
+                <div class="mock-stat-label">Retention</div>
+              </div>
+              <div class="mock-stat">
+                <div class="mock-stat-value" style="color: var(--laser);">8.4</div>
+                <div class="mock-stat-label">Satisfaction</div>
+              </div>
+            </div>
+            <div style="font-size: 11px; font-weight: 600; color: var(--gray-600); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">Repartition</div>
+            <div style="display: flex; gap: 8px; margin-bottom: 14px;">
+              <div style="flex: 3; height: 24px; background: linear-gradient(90deg, var(--cryo), #64B5F6); border-radius: 6px; display: flex; align-items: center; padding-left: 8px; font-size: 10px; font-weight: 600; color: white;">CRYO 58%</div>
+              <div style="flex: 2; height: 24px; background: linear-gradient(90deg, var(--laser), #FFB74D); border-radius: 6px; display: flex; align-items: center; padding-left: 8px; font-size: 10px; font-weight: 600; color: white;">LASER 42%</div>
+            </div>
+            <div style="font-size: 11px; font-weight: 600; color: var(--gray-600); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">Zones populaires</div>
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px;">
+              <div style="padding: 5px 10px; border-radius: 8px; font-size: 10px; background: rgba(33,150,243,0.1); color: var(--cryo);">Ventre <b>24%</b></div>
+              <div style="padding: 5px 10px; border-radius: 8px; font-size: 10px; background: rgba(255,152,0,0.1); color: var(--laser);">Aisselles <b>18%</b></div>
+              <div style="padding: 5px 10px; border-radius: 8px; font-size: 10px; background: rgba(33,150,243,0.1); color: var(--cryo);">Cuisses <b>16%</b></div>
+              <div style="padding: 5px 10px; border-radius: 8px; font-size: 10px; background: rgba(255,152,0,0.1); color: var(--laser);">Maillot <b>14%</b></div>
+            </div>
+            <div style="font-size: 11px; font-weight: 600; color: var(--danger); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">&#9888; A relancer (pas de RDV depuis 3 sem.)</div>
+            <div style="display: flex; align-items: center; gap: 8px; padding: 8px 10px; background: rgba(255,59,48,0.04); border: 1px solid rgba(255,59,48,0.1); border-radius: 10px; margin-bottom: 6px;">
+              <div class="mock-avatar f" style="width: 28px; height: 28px; font-size: 10px; border-radius: 7px;">NB</div>
+              <div style="flex: 1;">
+                <div style="font-size: 12px; font-weight: 600; color: var(--black);">Nadia Benali</div>
+                <div style="font-size: 9px; color: var(--gray-600);">Derniere seance : 2 juin</div>
+              </div>
+              <div style="font-size: 9px; color: var(--danger); font-weight: 600;">23j</div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; padding: 8px 10px; background: rgba(255,59,48,0.04); border: 1px solid rgba(255,59,48,0.1); border-radius: 10px;">
+              <div class="mock-avatar m" style="width: 28px; height: 28px; font-size: 10px; border-radius: 7px;">LR</div>
+              <div style="flex: 1;">
+                <div style="font-size: 12px; font-weight: 600; color: var(--black);">Lea Rousseau</div>
+                <div style="font-size: 9px; color: var(--gray-600);">Derniere seance : 29 mai</div>
+              </div>
+              <div style="font-size: 9px; color: var(--danger); font-weight: 600;">27j</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ SLIDE 11 — NOTIFICATIONS CLIENTE ═══════════════ -->
+<section class="slide slide-screen" id="slide-10" style="background: radial-gradient(ellipse at 20% 50%, rgba(255,152,0,0.04) 0%, transparent 50%);">
+  <div class="section-number reveal">09</div>
+  <div class="split reverse">
+    <div class="split-text screen-explain">
+      <span class="section-label reveal">Ecran 9 &mdash; Cote cliente</span>
+      <h2 class="section-title reveal reveal-delay-1">Notifications<br>intelligentes</h2>
+      <p class="section-desc reveal reveal-delay-2">
+        La cliente recoit des notifications personnalisees apres chaque soin. Pas du spam : des conseils contextuels au bon moment pour maximiser ses resultats.
+      </p>
+      <ul class="explain-list reveal reveal-delay-3">
+        <li>
+          <span class="explain-num">1</span>
+          <span class="explain-text"><strong>Post-soin immediat</strong> &mdash; Conseils d'hydratation, de protection solaire adaptes au type de soin (CRYO ou LASER)</span>
+        </li>
+        <li>
+          <span class="explain-num">2</span>
+          <span class="explain-text"><strong>Rappel photo</strong> &mdash; A J+5, J+15, J+30 : "Prenez votre photo pour suivre vos progres". En 3 taps c'est fait.</span>
+        </li>
+        <li>
+          <span class="explain-num">3</span>
+          <span class="explain-text"><strong>Rebooking</strong> &mdash; Au bon moment : "C'est le moment ideal pour votre prochaine seance CRYO !"</span>
+        </li>
+        <li>
+          <span class="explain-num">4</span>
+          <span class="explain-text"><strong>Fidelite</strong> &mdash; "Plus que 2 photos pour debloquer votre reduction -15% !" &mdash; engagement maximum</span>
+        </li>
+      </ul>
+    </div>
+    <div class="split-visual reveal reveal-delay-2">
+      <div class="phone">
+        <div class="phone-screen" style="background: #F8F7F4;">
+          <div class="phone-status-bar">
+            <span>14:32</span>
+            <span>&#9679;&#9679;&#9679;</span>
+          </div>
+          <div class="phone-appbar" style="border: none;">
+            <span class="phone-appbar-title">Mes soins</span>
+            <div class="phone-appbar-icon" style="position: relative;">&#128276;<div style="position: absolute; top: -2px; right: -2px; width: 8px; height: 8px; background: var(--danger); border-radius: 50%; border: 2px solid var(--gray-100);"></div></div>
+          </div>
+          <div class="phone-body">
+            <div style="font-size: 15px; font-weight: 600; color: var(--black); margin-bottom: 4px;">Bonjour Sophie !</div>
+            <div style="font-size: 12px; color: var(--gray-600); margin-bottom: 16px;">Votre prochaine seance CRYO est dans 4 jours</div>
+
+            <!-- Notification 1 -->
+            <div style="background: white; border-radius: 14px; padding: 14px; margin-bottom: 10px; border-left: 3px solid var(--cryo); box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                <div style="font-size: 12px; font-weight: 600; color: var(--cryo);">&#128167; Hydratation</div>
+                <div style="font-size: 9px; color: var(--gray-400);">Aujourd'hui</div>
+              </div>
+              <div style="font-size: 12px; color: var(--gray-800); line-height: 1.5;">Pensez a bien vous hydrater aujourd'hui. Apres une seance CRYO, une bonne hydratation amplifie les resultats.</div>
+            </div>
+
+            <!-- Notification 2 -->
+            <div style="background: white; border-radius: 14px; padding: 14px; margin-bottom: 10px; border-left: 3px solid var(--accent); box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                <div style="font-size: 12px; font-weight: 600; color: var(--accent);">&#128247; Photo J+5</div>
+                <div style="font-size: 9px; color: var(--gray-400);">Hier</div>
+              </div>
+              <div style="font-size: 12px; color: var(--gray-800); line-height: 1.5;">C'est le moment de prendre votre photo a J+5 pour suivre l'evolution de votre cure !</div>
+              <div style="margin-top: 8px; background: var(--accent); color: white; text-align: center; padding: 8px; border-radius: 8px; font-size: 11px; font-weight: 600;">Prendre ma photo</div>
+            </div>
+
+            <!-- Notification 3 -->
+            <div style="background: white; border-radius: 14px; padding: 14px; margin-bottom: 10px; border-left: 3px solid var(--laser); box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                <div style="font-size: 12px; font-weight: 600; color: var(--laser);">&#9728; Protection solaire</div>
+                <div style="font-size: 9px; color: var(--gray-400);">Lundi</div>
+              </div>
+              <div style="font-size: 12px; color: var(--gray-800); line-height: 1.5;">Evitez l'exposition au soleil sur la zone traitee pendant 48h apres votre seance Laser.</div>
+            </div>
+
+            <!-- Notification 4 -->
+            <div style="background: white; border-radius: 14px; padding: 14px; margin-bottom: 10px; border-left: 3px solid var(--success); box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                <div style="font-size: 12px; font-weight: 600; color: var(--success);">&#127873; Fidelite</div>
+                <div style="font-size: 9px; color: var(--gray-400);">Samedi</div>
+              </div>
+              <div style="font-size: 12px; color: var(--gray-800); line-height: 1.5;">Bravo ! Plus que 2 photos pour debloquer votre reduction -15% sur votre prochaine seance.</div>
+              <div style="margin-top: 6px; background: var(--gray-100); border-radius: 6px; height: 6px; overflow: hidden;">
+                <div style="width: 75%; height: 100%; background: linear-gradient(90deg, var(--success), #66BB6A); border-radius: 6px;"></div>
+              </div>
+              <div style="font-size: 9px; color: var(--gray-600); margin-top: 4px; text-align: right;">6/8 photos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ SLIDE 12 — PARCOURS COMPLET ═══════════════ -->
+<section class="slide slide-flow" id="slide-11">
   <span class="section-label reveal">Le parcours complet</span>
   <h2 class="section-title reveal reveal-delay-1">Du premier contact au suivi long terme</h2>
   <p class="section-desc reveal reveal-delay-2" style="text-align: center; margin: 0 auto;">
@@ -2019,7 +2206,7 @@ nav {
 </section>
 
 <!-- ═══════════════ SLIDE 11 — SECURITE ═══════════════ -->
-<section class="slide slide-screen slide-security" id="slide-10">
+<section class="slide slide-screen slide-security" id="slide-12">
   <div class="section-number reveal">08</div>
   <div class="split">
     <div class="split-text">
@@ -2086,7 +2273,7 @@ nav {
 </section>
 
 <!-- ═══════════════ SLIDE 12 — BUSINESS MODEL + ROADMAP ═══════════════ -->
-<section class="slide slide-business" id="slide-11">
+<section class="slide slide-business" id="slide-13">
   <span class="section-label reveal">Modele economique</span>
   <h2 class="section-title reveal reveal-delay-1">Gratuit pour adopter,<br>payant pour exceller.</h2>
   <p class="section-desc reveal reveal-delay-2" style="text-align: center; margin: 0 auto;">
@@ -2134,7 +2321,7 @@ nav {
 </section>
 
 <!-- ═══════════════ SLIDE 13 — CLOSING ═══════════════ -->
-<section class="slide slide-end" id="slide-12">
+<section class="slide slide-end" id="slide-14">
   <div class="cover-badge reveal" style="margin-bottom: 32px;">Ou en est-on</div>
   <h2 class="end-title reveal reveal-delay-1">Le MVP est construit.<br>Place au <em style="font-style: italic; background: linear-gradient(135deg, var(--accent), var(--cryo)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">deploiement</em>.</h2>
   <p class="section-desc reveal reveal-delay-2" style="text-align: center; margin: 0 auto 32px; max-width: 600px;">
